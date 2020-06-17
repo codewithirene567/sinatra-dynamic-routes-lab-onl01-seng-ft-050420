@@ -34,7 +34,11 @@ class App < Sinatra::Base
     end
 
     get '/:operation/:number1/:number2' do
-      
+      number1 = params[:number1]
+      number2 = params[:number2]
+      @add = params[:number1] + params[:number2]
+      @subtract =
+    end
 
 
 end
