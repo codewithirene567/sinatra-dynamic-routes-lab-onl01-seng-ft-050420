@@ -41,7 +41,7 @@ class App < Sinatra::Base
           when 'add' = "number1 - number2"
           when 'add' = "number1 - number2"
           when 'add' = "number1 * number2"
-          when 'add' = "number1 / number2}"
+          when 'add' = "number1 / number2"
           end
         end
       end
