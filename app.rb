@@ -22,5 +22,5 @@ class App < Sinatra::Base
       result += @phrase
     end
    end
-  
+
 end
