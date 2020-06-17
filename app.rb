@@ -24,4 +24,7 @@ class App < Sinatra::Base
     result
    end
 
+   get '/say/:word1/:word2/:word3/:word4/:word5'
+      @allwords = params[:word1], params[:word2], params[:word3], word
+      @words.to_s
 end
