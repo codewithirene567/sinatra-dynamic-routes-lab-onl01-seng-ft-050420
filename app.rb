@@ -48,7 +48,7 @@ class App < Sinatra::Base
             when 'divide'
               (number1 / number2).to_s
           end
-        end
+    end
 
 
 
