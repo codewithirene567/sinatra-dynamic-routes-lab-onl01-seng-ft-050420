@@ -39,7 +39,7 @@ class App < Sinatra::Base
             number2 = params[:number2].to_i
             case answer
           when 'add' = "number1 - number2"
-          when 'add' = "number1} - number2"
+          when 'add' = "number1 - number2"
           when 'add' = "number1 * number2"
           when 'add' = "number1 / number2}"
           end
