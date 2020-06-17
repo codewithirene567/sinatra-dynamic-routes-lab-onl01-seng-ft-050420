@@ -10,5 +10,6 @@ class App < Sinatra::Base
   get '/square/:number' do
     @square_number = params[:number].to_i ** 2
     @square_number.to_s
+    binding.pry
   end
 end
