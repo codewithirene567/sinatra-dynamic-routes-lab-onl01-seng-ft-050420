@@ -36,8 +36,10 @@ class App < Sinatra::Base
     get '/:operation/:number1/:number2' do
       number1 = params[:number1]
       number2 = params[:number2]
-      @add = params[:number1] + params[:number2]
-      @subtract =
+      @add = "#{number1} - #{number2}"
+      @subtract = "#{number1} - #{number2}"
+      @multiply = "#{number1} * #{number2}"
+      @divide = "#{number1} / #{number2}"
     end
 
 
